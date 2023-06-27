@@ -4,6 +4,7 @@
 * 性 别：男&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;年 龄：22  
 * 手 机：18805268917 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp; 邮 箱：1747364257@qq.com    
 * 专 业：计算机科学与技术 &emsp;&emsp;&emsp;&emsp;&emsp; 岗 位：Java开发工程师
+* Github：https://github.com/zhoujie0420
 ***
 ## 专业技能
 
@@ -14,7 +15,8 @@
 * 熟悉 Redis 数据类型的使用，实践缓存穿透，缓存击穿和缓存雪崩情况解决，了解其持久化策略。
 * 了解常用开发工具的使用 如：Maven，Git ，Jmeter，Postman ，熟练使用开发工具 Idea。
 * 了解并能使用Linux操作系统以及docker容器，有实际部署项目的经验.
-* 了解消息队列RabbitMQ及其基本使用。
+* 了解消息队列 RabbitMQ 及其基本使用。
+* 掌握 Vue 和开源 Ui 框架的前端开发。
 
 
 ***
@@ -35,14 +37,17 @@
 
 ***
 ## 项目经历
-项  目 ：研究生管理系统  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;     项目角色：后端开发
 
-项目描述：浙大研究生管理系统，根据需求进行模块开发，配合测试前端联调，完成版本迭代。
-* 使用 Shiro 权限框架，控制和区分角色功能，完成不同角色的权限控制和页面展示。
-* 使用 Quartz 动态管理定时任务，实现文件的批量上传，下载。
-* 使用 WebSocket 实时更新进度条，优化如上传大文件等操作的用户体验。
-* 使用 Redis + RabbitMq 完成异步抢课，提高系统的性能和并发处理能力。
-* 使用 ExcelUtils 工具类，实现了文件导入导出功能，并提高了数据处理的效率。
+项  目 ：Acmer Of Bots  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;     项目角色：全栈
+
+项目描述：基于SpringBoot+Vue3的本校ACM社团招新宣传的项目，用户利用自己的算法知识完成rating提升
+* 前端采用Vue框架搭建，使用bootstrap组件库
+* 使用Spring Security+jwt 实现用户登录，权限管理
+* 采用微服务架构，完成匹配系统和Ai代码执行业务，高效实现系统对局完整性，提高游戏体验
+* 使用WebSocket 长连接实现回合制游戏流程
+* 使用 @scheduled 定时任务，分析对局情况，用户上线情况
+* 运用 RabbitMq 完成存储对局记录，提高系统的性能和并发处理能力
+* 使用docker完成项目的部署，利用云服务器完成项目的上线
 
 
 项  目  ：店铺点评APP   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;     项目角色：后端
