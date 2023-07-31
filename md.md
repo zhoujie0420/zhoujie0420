@@ -27,12 +27,12 @@
 ***
 ## 实习经历
 
- 公 司 ：亚信科技（中国）   &emsp;&emsp;&emsp;&emsp;&emsp;职位 ：Java 后端 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;时间 ：2023.5-2023.7
+ 公 司 ：来未来科技   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;职位 ：Java 后端 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;时间 ：2023.6-2023.8
 
-项目介绍：与国内三大运营商合作的ToB产品，提供不同平台的广告投送。
-* 负责生产环境的订单库存的数据稳定，进行需求回滚。编写接口文档
-* 根据产品需求，完善部分消息监听接口，实现异步接口的可靠，提高接口响应速度
-* 负责用户视频观看功能模块，使用缓存加定时任务实现数据持久化，降低DB压力
+项目介绍：ToG产品，云原生，基础架构平台的开发，在业务基础上coding
+* 负责中台系统的数据转移，在理解业务的基础上，进行新系统表设计及接口开发
+* 重构消息监听接口，异步编排，定时任务，提高接口响应速度
+* 监控线上任务，基于k8s云原生进行故障排查
   
 
  公 司 ：杭州匡汇科技公司  &emsp;&emsp;&emsp;&emsp;&emsp;职位 ：Java 后端 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;时间 ：2023.1-2023.5
