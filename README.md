@@ -1,34 +1,20 @@
-<h1 align="center">Hi there! 👋</h1>
+### Hi there 👋
 
-<img align='left' src='github-metrics.svg'>
+<!--
+**zhoujie0420/zhoujie0420** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-## Status
+Here are some ideas to get you started:
 
-- Android & Minecraft & Rust
-- Email: rain@redrock.team
-- Blog: https://blog.coldrain.ink/
+-->
 
-## Tech Stacks
+### My GitHub Contributions    
+     
 
-![](https://img.shields.io/badge/-Android-black?style=for-the-badge&logo=android)
-![](https://img.shields.io/badge/-Linux-black?style=for-the-badge&logo=linux)
-![](https://img.shields.io/badge/-Golang-black?style=for-the-badge&logo=go)
-![](https://img.shields.io/badge/-Java-black?style=for-the-badge&logo=openjdk)
-![](https://img.shields.io/badge/-Kotlin-black?style=for-the-badge&logo=kotlin)
-![](https://img.shields.io/badge/-Python-black?style=for-the-badge&logo=python)
-![](https://img.shields.io/badge/-Rust-black?style=for-the-badge&logo=rust)
-![](https://img.shields.io/badge/-Javascript-black?style=for-the-badge&logo=javascript)
-![](https://img.shields.io/badge/-Typescript-black?style=for-the-badge&logo=typescript)
-![](https://img.shields.io/badge/-Node.js-black?style=for-the-badge&logo=node.js)
-![](https://img.shields.io/badge/-Deno-black?style=for-the-badge&logo=deno)
-![](https://img.shields.io/badge/-React-black?style=for-the-badge&logo=react)
-![](https://img.shields.io/badge/-Spring-black?style=for-the-badge&logo=spring)
-![](https://img.shields.io/badge/-Docker-black?style=for-the-badge&logo=docker)
-![](https://img.shields.io/badge/-Bukkit-black?style=for-the-badge&logo=minecraft)
+### About me      
 
-## Dev Environment
+[![Angola peng's GitHub stats](https://github-readme-stats.vercel.app/api?username=zhoujie0420&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+![Angola peng's Most used languages](https://github-readme-stats.vercel.app/api/top-langs/?username=zhoujie0420&layout=compact&hide_border=true&langs_count=10)
 
-![](https://img.shields.io/badge/-Archlinux-black?style=for-the-badge&logo=archlinux)
-![](https://img.shields.io/badge/-Jetbrains-black?style=for-the-badge&logo=jetbrains)
-![](https://img.shields.io/badge/-AndroidStudio-black?style=for-the-badge&logo=android)
-![](https://img.shields.io/badge/-VSCode-black?style=for-the-badge&logo=visualstudiocode)
+- 🔭 I just want to be Javaer ... 
+
+
