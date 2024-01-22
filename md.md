@@ -10,10 +10,9 @@
 * 熟悉数据结构和算法 ，具备良好的算法思想和思维逻辑
 * 了解 JUC，JVM 具备 Java 开发经验，熟悉 SpringBoot，SpringCloud，Mybatis-Plus等框架
 * 熟悉 Mysql，具备一定的数据库表设计能力，熟悉索引，具备 sql 优化经验
-* 熟悉 Redis，实践缓存穿透，缓存击穿和缓存雪崩情况解决，了解其持久化策略
-* 了解消息队列RabbitMQ及其基本使用，拥有相关的开发经验。
-* 了解常用开发工具的使用 如：Maven，Git ，Jmeter，Postman ，熟练使用开发工具 Idea
-* 了解并能使用Linux操作系统以及docker容器，有实际部署项目的经验
+* 熟悉常见的 NoSQL，如 Redis 的基本使用、数据类型、持久化策略、内存淘汰策略等
+* 了解消息队列 RabbitMq 及其基本使用，拥有相关的开发经验。
+* 了解并能使用 Linux 操作系统以及 Docker 容器，有实际部署项目的经验
 
 ***
 ## 教育经历
