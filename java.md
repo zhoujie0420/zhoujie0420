@@ -14,61 +14,40 @@
 * 了解消息队列 RabbitMq 及其基本使用，拥有相关的开发经验。
 * 了解并能使用 Linux 操作系统以及 Docker 容器，有实际部署项目的经验
 
+ 
 ***
-## 教育经历
+## 工作经历
 
-2020.09  -  2024.06 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;浙江树人学院   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;计算机科学与技术   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;本科   
-在校经历： CET-4 &emsp;&emsp;&emsp;&emsp;2021学年奖学金  &emsp;&emsp;&emsp;&emsp;RoboCom 机器人开发编程设计   &emsp;&emsp;&emsp;蓝桥杯省三
-
-***
-## 实习经历
-
-公 司 ：讯联数据&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;职位 ： 后端 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;时间 ：2024.1-2024.5
-
-项目介绍：支付体系的需求迭代，涉及平台，清算业务模块；信息告警中间件拓展。
-
-* 平台业务模块下，DB数据同步ES后对数据汇总进行异步编排。
-* 清算模块下的报表生成，报表的定制化拓展模块的代码改造。
-* 监听MongoDb的oplog进行支付的异步数据拓展。
+公 司 ：讯联数据&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;职位 ： 后端 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;时间 ：2024.1-2025.10
 
 
-公 司 ：蘑菇街（杭州卷瓜网络）&emsp;&emsp;职位 ：Java 后端 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;时间 ：2023.8-2024.1
 
-项目介绍：维护蘑菇街项目需求迭代，针对新项目的需求开发.
+公 司 ：蘑菇街（杭州卷瓜网络）&emsp;&emsp;职位 ： 后端（实习） &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;时间 ：2023.8-2024.1
 
-* 封装基础应用组件，完善缓存，消息报等中间件异常处理，日志输出。
-* 提供消息报的多线程处理，实现N * M的并发处理，提高消息报的处理速度。
-* 参与921，双十一等大促活动，了解项目上线，服务器扩容，流量爆发等业务场景。
-* 针对sass平台,拓展三方需求实现可插拔式对接，按需完成项目上线
-* 学习支付体系，并进行Go语言的代码重构，进行文档的总结沉淀
-
-
-公 司 ：亚信科技（中国） &emsp;&emsp;&emsp;&emsp;&emsp;职位 ：Java 后端 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;时间
+公 司 ：亚信科技（中国） &emsp;&emsp;&emsp;&emsp;&emsp;职位 ：后端（实习） &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;时间
 ：2023.4-2023.7
 
-项目介绍：与国内三大运营商合作的ToB产品，提供不同平台的广告投送。
-
-* 负责中台系统，进行生产环境需求回滚，数据迁移，数据库文档编写。
-* 根据产品需求，完善消息监听接口，实现异步接口的可靠，提高接口响应速度
-* 封装查询条件，提供向外可拼接功能，编写对应的使用文档，提高了团队开发效率
-* 针对异步下载接口进行重构，提供查询条件的泛型接口，提高复用性
+***
+## 教育经历
+2020.09  -  2024.06 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;浙江树人学院   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;计算机科学与技术   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;本科   
+在校经历： CET-4 &emsp;&emsp;&emsp;&emsp;2021学年奖学金  &emsp;&emsp;&emsp;&emsp;RoboCom 机器人开发编程设计   &emsp;&emsp;&emsp;ACM
 
 ***
 ## 项目经历
-项  目 ：Acmer Of Bots  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;     项目角色：全栈
+项  目 ：CardInfoLink &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;项目角色：后端
 
-地址：https://zzac.online/
+项目介绍：支付业务的需求迭代，涉及平台，清算，联机业务模块。
 
-项目描述：基于SpringBoot+Vue3的本校ACM社团招新宣传的项目，用户利用自己的算法知识完成rating提升
-* 使用Spring Security+jwt 实现用户登录，权限管理
-* 隔离匹配系统和Ai代码执行服务，高效实现系统对局完整性，提高游戏体验
-* 使用 WebSocket 长连接实现游戏同步,异步存储对局记录，提高系统的性能
-* 使用 Quartz 异步任务实现对局分析及用户上线情况统计
-* 使用 docker 完成项目的部署，利用云服务器完成项目的上线
+* 设计cardBin长短位匹配算法，结合LRU缓存+贪心算法优化查询性能，匹配准确率提升至95.7%
+* 优化报表任务，针对报表数据进行中间统计，任务执行时间缩短70%
+* 异步编排8个下游服务调用，接口RT从1.8s降至400ms
+* 优化Excel到CUE文件解析，实现95%的自动化代码生成
+* 编排Argo工作流以污点机器，实现清分联机业务隔离，避免因资源重启导致交易失败
+* 文件reporter服务优化为常驻进程，设计调度机制，支持和现有调度同时执行，提升文件处理效率50%
 
 项  目  ：蘑菇街    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;     项目角色：后端
 
-项目描述：实习项目，参与蘑菇街主站开发及基础脚手架维护。
+项目描述：参与蘑菇街主站开发及基础脚手架维护。
 * 周期购需求，复用原有的正逆向逻辑，新增子订单依附及零元购通用逻辑，简化业务重复操作
 * 优化缓存限流策略，使用漏斗算法及Aop思想实现接口级限流
 * 使用分布式锁实现底层接口的幂等性，减少上游业务的复杂逻辑的考虑。
