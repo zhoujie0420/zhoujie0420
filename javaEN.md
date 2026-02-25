@@ -23,7 +23,7 @@
 ***
 ## Education Experience
 
-September 2020 - June 2024 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Zhejiang Shuren University   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Computer Science and Technology  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;本科   
+September 2020 - June 2024 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Hangzhou DianZi University University   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Computer Science and Technology  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;本科   
 Academic Achievements:： CET-4 &emsp;&emsp;&emsp;&emsp;Scholarship recipient for the academic year 2021  &emsp;&emsp;&emsp;&emsp;RoboCom   &emsp;&emsp;&emsp;LanQiao
 
 ***

@@ -15,13 +15,14 @@
 * 熟悉常见数据库如MySQL、MongoDB，具备SQL调优经验
 * 了解消息队列 RabbitMq 及其基本使用，拥有相关的开发经验。
 * 了解并能使用Linux操作系统及Docker、K8S，熟悉CI/CD流程。
+* 熟练运用 Claude Code、Cursor 等 AI 原生开发工具，擅长编写高质量 Prompt、维护项目级 CLAUDE.md 及优化上下文配置
 
 ***
 
 ## 工作经历
 
 公 司 ：讯联数据&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;职位 ： 后端
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;时间 ：2024.1-2026.1
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;时间 ：2024.1-2026.2
 
 公 司 ：蘑菇街（杭州卷瓜网络）&emsp;&emsp;职位 ： 后端（实习） &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;时间 ：2023.8-2024.1
 
@@ -30,7 +31,7 @@
 
 ***
 ## 教育经历
-2020.09  -  2024.06 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;杭州电子科技大学   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;计算机科学与技术   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;本科   
+2020.09  -  2024.06 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;浙江树人大学   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;计算机科学与技术   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;本科   
 在校经历： CET-6 &emsp;&emsp;&emsp;&emsp;学年奖学金  &emsp;&emsp;&emsp;&emsp;RoboCom 机器人开发编程   &emsp;&emsp;&emsp;ACM
 
 ***
@@ -46,9 +47,10 @@
 * 设计cardBin长短位匹配算法，结合协程,贪心算法优化合并效率，匹配准确率提升至95.7%
 * 优化报表任务，针对报表数据进行中间统计，任务执行时间缩短70%
 * 异步编排多个个下游服务调用，接口RT从1.8s降至400ms
-* 编排Argo工作流以污点机器，实现清分联机业务隔离，避免因资源重启导致交易失败
 * 文件reporter服务优化为常驻进程，设计调度机制，支持和现有调度同时执行，拓展文件调度方式
 * 文件数据的全流程加密，维护内部平台的文件解密功能，提高内部oncall分析效率
+* 利用 AI 模拟极端对账场景（如单边账、金额差错、跨日延迟），生成了 99% 覆盖单元测试集
+* 维护 CLAUDE.md,强制规范 AI 在生成请款文件逻辑时的规范约束,确保 AI 生成代码的业务合规性达 99%。
 
 项 目 ：蘑菇街
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
