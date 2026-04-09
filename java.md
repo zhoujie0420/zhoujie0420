@@ -30,7 +30,7 @@
 ***
 ## 教育经历
 2020.09  -  2024.06 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;浙江树人学院   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;计算机科学与技术   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;本科   
-在校经历： CET-4 &emsp;&emsp;&emsp;&emsp;2021学年奖学金  &emsp;&emsp;&emsp;&emsp;RoboCom 机器人开发编程设计   &emsp;&emsp;&emsp;ACM
+在校经历： CET-6 &emsp;&emsp;&emsp;&emsp;学年奖学金  &emsp;&emsp;&emsp;&emsp;RoboCom 机器人开发编程设计   &emsp;&emsp;&emsp;ACM
 
 ***
 ## 项目经历
@@ -38,12 +38,14 @@
 
 项目介绍：支付业务的需求迭代，涉及平台，清算，联机业务模块。
 
-* 设计cardBin长短位匹配算法，结合LRU缓存+贪心算法优化查询性能，匹配准确率提升至95.7%
+* 参与清结算模块的oncall工作，定位并解决线上问题，保障系统稳定运行
+* 设计cardBin长短位匹配算法，结合协程、贪心算法优化合并效率，优化任务执行时间10h->30min
 * 优化报表任务，针对报表数据进行中间统计，任务执行时间缩短70%
-* 异步编排8个下游服务调用，接口RT从1.8s降至400ms
-* 优化Excel到CUE文件解析，实现95%的自动化代码生成
-* 编排Argo工作流以污点机器，实现清分联机业务隔离，避免因资源重启导致交易失败
-* 文件reporter服务优化为常驻进程，设计调度机制，支持和现有调度同时执行，提升文件处理效率50%
+* 基于 errgroup 实现多下游服务并行编排，采用 DAG 拓扑排序思想处理有依赖的调用链，接口 RT 从 1.8s 降至 400ms
+* 文件reporter服务优化为常驻进程，设计调度机制，支持和现有调度同时执行，拓展文件调度方式
+* 文件数据的全流程加密，维护内部平台的文件解密功能，提高内部oncall分析效率
+* 利用 AI 模拟极端对账场景（如单边账、金额差错、跨日延迟），生成了 99% 覆盖单元测试集
+* 维护 CLAUDE.md,强制规范 AI 在生成请款文件逻辑时的规范约束,确保 AI 生成代码的业务合规性达 99%。
 
 项  目  ：蘑菇街    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;     项目角色：后端
 
