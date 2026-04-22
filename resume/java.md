@@ -7,18 +7,19 @@
 ***
 ## 专业技能
 
-* 熟悉数据结构和算法 ，具备良好的算法思想和思维逻辑
+* 熟悉数据结构和算法，具备良好的算法思想和思维逻辑，熟悉高级数据结构的使用
 * 了解 JUC，JVM 具备 Java 开发经验，熟悉 SpringBoot，SpringCloud，Mybatis-Plus等框架
 * 熟悉 Mysql，具备一定的数据库表设计能力，熟悉索引，具备 sql 优化经验
 * 熟悉常见的 NoSQL，如 Redis 的基本使用、数据类型、持久化策略、内存淘汰策略等
-* 了解消息队列 RabbitMq 及其基本使用，拥有相关的开发经验。
-* 了解并能使用 Linux 操作系统以及 Docker 容器，有实际部署项目的经验
+* 熟悉消息队列 RabbitMq 及其基本使用，拥有相关的开发经验。
+* 了解并能使用Linux操作系统及Docker、K8S，熟悉CI/CD流程。
+* 熟练运用 Claude Code、Cursor 等 AI 原生开发工具，擅长编写高质量 Prompt、维护项目级 CLAUDE.md 及优化上下文配置
 
  
 ***
 ## 工作经历
 
-公 司 ：讯联数据&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;职位 ： 后端 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;时间 ：2024.1-2026.01
+公 司 ：讯联数据&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;职位 ： 后端 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;时间 ：2024.1-2026.04
 
 
 
@@ -29,14 +30,14 @@
 
 ***
 ## 教育经历
-2020.09  -  2024.06 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;浙江树人学院   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;计算机科学与技术   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;本科   
-在校经历： CET-6 &emsp;&emsp;&emsp;&emsp;学年奖学金  &emsp;&emsp;&emsp;&emsp;RoboCom 机器人开发编程设计   &emsp;&emsp;&emsp;ACM
+2020.09  -  2024.06 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;浙江树人大学   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;计算机科学与技术   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;本科   
+在校经历： CET-6 &emsp;&emsp;&emsp;&emsp;学年奖学金  &emsp;&emsp;&emsp;&emsp;RoboCom 机器人开发编程   &emsp;&emsp;&emsp;ACM
 
 ***
 ## 项目经历
 项  目 ：CardInfoLink &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;项目角色：后端
 
-项目介绍：支付业务的需求迭代，涉及平台，清算，联机业务模块。
+项目介绍：跨境支付服务商，涉及清算，收单，平台业务模块。
 
 * 参与清结算模块的oncall工作，定位并解决线上问题，保障系统稳定运行
 * 设计cardBin长短位匹配算法，结合协程、贪心算法优化合并效率，优化任务执行时间10h->30min

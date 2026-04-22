@@ -1,21 +1,54 @@
-### Hi there 👋
+<h1 align="center">Hey 👋, I'm Jiezhou</h1>
 
-<!--
-**zhoujie0420/zhoujie0420** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <em>Backend Engineer · Go / Java · AI Agent Builder · Payments & FinTech</em>
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  <a href="https://github.com/zhoujie0420"><img src="https://img.shields.io/github/followers/zhoujie0420?label=Follow&style=social" /></a>
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=zhoujie0420&label=Profile%20Views&color=0e75b6&style=flat" />
+</p>
 
--->
+---
 
-### My GitHub Contributions    
-     
+### 🧑‍💻 About Me
 
-### About me      
+- 📍 Based in **Hangzhou, China**
+- 🔧 3+ years of backend experience in **cross-border payments** (clearing, acquiring, reconciliation)
+- 🚀 Currently focused on **Go backend development** and **AI Agent engineering**
+- 🤖 Building intelligent agents with **ReAct**, **Tool Calling**, **DAG orchestration**
+- 🛠️ Power user of AI-native dev tools — Claude Code, Cursor, Kiro, CLAUDE.md workflows
 
+---
 
-- 🔭 I just want to be Javaer ... 
+### 🏢 Career Journey
 
-- 🔭 I just want to be Golanger ... 
+```
+2023.04 ─ 2023.07   亚信科技（AsiaInfo）          实习
+2023.08 ─ 2024.01   蘑菇街（Mogujie）             实习
+2024.01 ─ Now       讯联数据（CardInfoLink）      后端工程师
+```
 
-- 🔭 I just want to be AIer ... 
+---
 
+### 🚀 What I'm Working On
+
+- 💳 专注**跨境支付**领域，熟悉清算、收单、对账等核心业务
+- 🤖 正在探索 **AI Agent** 在支付运维场景的落地应用
+
+---
+
+### �️ Other Projects
+
+| Project | Description |
+|---------|-------------|
+| **GoPay** | 个人支付网关 |
+| **FluencyLab** | 英语学习应用 |
+| **Vital** | 身体健康记录 |
+
+---
+
+<p align="center">
+  <em>"Write code that writes code, build agents that solve problems."</em>
+</p>

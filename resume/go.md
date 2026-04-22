@@ -12,6 +12,7 @@
 
 * 熟悉数据结构和算法，具备良好的算法思想和思维逻辑，熟悉高级数据结构的使用
 * 熟悉Go语言，了解map、slice、channel、GMP模型、gc垃圾回收、内存逃逸等底层原理
+* 熟悉 Gin Web 框架，了解 Argo Workflows 并用于定时任务调度与编排
 * 熟悉常见数据库如MySQL、MongoDB、Redis，具备SQL调优经验
 * 熟悉消息队列 RabbitMq 及其基本使用，拥有相关的开发经验。
 * 了解并能使用Linux操作系统及Docker、K8S，熟悉CI/CD流程。
