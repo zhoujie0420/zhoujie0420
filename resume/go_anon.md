@@ -1,10 +1,9 @@
-# 周杰
+# elk
 
 ## 个人信息
 
-* 手 机：18805268917 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp; 邮 箱：jiezhou8917@qq.com
 * 专 业：计算机科学与技术 &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; 岗 位：Go开发工程师
-* GitHub：https://github.com/zhoujie0420
+* GitHub：
 
 ***
 
@@ -23,22 +22,22 @@
 
 ## 工作经历
 
-公 司 ：讯联数据&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;职位 ： 后端 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;时间 ：2024.1-2026.4
+公 司 ：境外支付&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;职位 ： 后端 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;时间 ：2024.1-2026.4
 
-公 司 ：蘑菇街（杭州卷瓜网络）&emsp;&emsp;职位 ： 后端（实习） &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;时间 ：2023.8-2024.1
+公 司 ：电商平台&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;职位 ： 后端（实习） &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;时间 ：2023.8-2024.1
 
-公 司 ：亚信科技（中国） &emsp;&emsp;&emsp;&emsp;&emsp;职位 ：后端（实习） &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;时间 ：2023.4-2023.7
+公 司 ：网络安全&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;职位 ： 后端（实习） &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;时间 ：2023.4-2023.7
 
 ***
 ## 教育经历
-2020.09  -  2024.06 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;浙江树人大学   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;计算机科学与技术   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;本科   
+2020.09  -  2024.06 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;浙江**大学   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;计算机科学与技术   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;本科   
 在校经历： CET-6 &emsp;&emsp;&emsp;&emsp;学年奖学金  &emsp;&emsp;&emsp;&emsp;RoboCom 机器人开发编程   &emsp;&emsp;&emsp;ACM
 
 ***
 
 ## 项目经历
 
-项 目 ：CardInfoLink &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 项目角色：后端
+项 目 ：境外支付Sass &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 项目角色：后端
 项目介绍：跨境支付服务商，服务覆盖 10+ 国家与地区，日交易量级百万级，涉及收单、清算、结算、对账、请款等核心模块。主要负责清结算与对账相关模块的开发与维护。
 * 参与清结算模块 oncall，负责线上问题的定位与止损，保障每日百万级交易的资金准确性与系统稳定性
 * 针对卡组织 BIN 导致的任务耗时过长问题，结合协程分片与贪心合并策略优化处理效率，任务执行时间从 10h 降至 30min
@@ -49,15 +48,15 @@
 * 维护项目级 CLAUDE.md，将请款文件生成的金额精度、字段规范、资金流向等业务规则沉淀为 AI 约束，显著降低 AI 生成代码的人工 review 成本与合规风险
 * 基于 Eino 框架构建对账测试工具，自动生成边界场景并驱动交易全链路执行（交易发起 → 清算 → 对账结果校验），补齐单边账、金额差错、跨日延迟场景，核心对账模块单元测试覆盖率提升至 99%
 
-项 目 ：恒生银行入网 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 项目角色：后端（核心开发）
+项 目 ：银行入网 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 项目角色：后端（核心开发）
 项目介绍：面向恒生合作机构的商户入网平台，承接从资料提交、合规审核、协议生成、费率配置到下游支付渠道开户的全流程入网能力，是支付交易链路的前置环节。
 * 设计并落地通用工作流引擎：抽象节点的 DAG 流转，支持资料提交、初审、复审、渠道开户、激活等环节按配置编排，新增流程节点无需改码
 * 设计 SLA 超时预警机制：按 FunctionMenu、TaskType等多级评分匹配 SLA 配置，基于任务创建时间实时计算 ExpectedDate 与 Priority，支撑入网时效监控
 * 基于 HistoryEntry 完整记录每次节点进入 / 审批 / 回退 / 表单变更的 操作人、时间戳、前后值，支撑入网全链路审计追溯与合规要求
 * 构建可配置资料校验规则，将原本散落在代码中的硬编码校验抽象为 JSON 可配置规则，支持不同渠道 / 机构差异化策略，新增校验规则无需改码
 
-项 目 ：蘑菇街 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 项目角色：后端（实习）
-项目介绍：蘑菇街主站交易链路与基础脚手架维护，负责订单、退款、限流等核心模块的需求开发与稳定性优化，日单量十万级。
+项 目 ：电商平台 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 项目角色：后端（实习）
+项目介绍：电商平台主站交易链路与基础脚手架维护，负责订单、退款、限流等核心模块的需求开发与稳定性优化，日单量十万级。
 * 周期购需求，复用原有的正逆向逻辑，新增子订单依附及零元购通用逻辑，简化业务重复操作
 * 优化缓存限流策略，使用漏斗算法及Aop思想实现接口级限流
 * 使用分布式锁实现底层接口的幂等性，减少上游业务的复杂逻辑的考虑。

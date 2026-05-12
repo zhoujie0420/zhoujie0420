@@ -10,13 +10,14 @@
 
 ## Skills
 
-* Solid understanding of data structures and algorithms with strong problem-solving skills
-* Proficient in Go, familiar with internals including map, slice, channel, GMP model, GC, and memory escape analysis
-* Experienced with Gin web framework; familiar with Argo Workflows for scheduled task orchestration
-* Proficient in MySQL, MongoDB, and Redis with SQL tuning experience
-* Familiar with RabbitMQ messaging and related development practices
-* Hands-on experience with Linux, Docker, Kubernetes, and CI/CD pipelines
+* Solid grasp of data structures and algorithms, with experience designing algorithms for complex real-world scenarios
+* Proficient in Go, familiar with internals including map, slice, channel, GMP scheduling, GC, and memory escape analysis
+* Experienced with Gin web framework; familiar with Argo Workflows for scheduled task orchestration; hands-on experience building agent workflows with the Eino framework
+* Proficient in MySQL, MongoDB, and Redis with SQL tuning and index design experience
+* Familiar with Kafka for async decoupling and traffic shaping scenarios
+* Working knowledge of Linux, Docker, Kubernetes, and CI/CD pipelines
 * Skilled in AI-native development tools (Claude Code, Cursor); experienced in writing high-quality prompts, maintaining project-level CLAUDE.md, and optimizing context configurations
+* Solid understanding of cross-border payment business flows (clearing, settlement, acquiring, reconciliation, funding), with hands-on experience implementing fund consistency and regulatory compliance
 
 ***
 
@@ -40,36 +41,35 @@ Achievements: CET-6 &emsp;&emsp; Academic Scholarship &emsp;&emsp; RoboCom Robot
 
 ## Project Experience
 
-### CardInfoLink — Cross-Border Payment Platform
+### CardInfoLink — Cross-Border Payment Platform &emsp;&emsp; Role: Backend Engineer
 
-A cross-border payment service provider covering clearing, acquiring, and platform business modules.
+A cross-border payment service provider operating across 10+ countries and regions with million-level daily transactions, covering acquiring, clearing, settlement, reconciliation, and funding modules. Primarily responsible for development and maintenance of clearing, settlement, and reconciliation modules.
 
-* Participated in on-call for the clearing & settlement module, diagnosing and resolving production issues to ensure system stability
-* Designed a card BIN long/short matching algorithm, leveraging goroutines and greedy optimization to reduce task execution time from 10h to 30min
-* Optimized reporting tasks with intermediate aggregation, reducing execution time by 70%
-* Implemented parallel orchestration of downstream services using errgroup with DAG topological sorting for dependent call chains, reducing API response time from 1.8s to 400ms
-* Refactored the file reporter service into a resident process with a scheduling mechanism supporting concurrent execution alongside existing schedulers
-* Implemented end-to-end file encryption and maintained internal platform decryption tools to improve on-call analysis efficiency
-* Used AI to simulate extreme reconciliation scenarios (one-sided transactions, amount discrepancies, cross-day delays), generating a unit test suite with 99% coverage
-* Maintained CLAUDE.md to enforce AI code generation constraints for payment file logic, achieving 99% business compliance in AI-generated code
+* Participated in on-call rotation for the clearing & settlement module, diagnosing and mitigating production incidents to ensure fund accuracy and system stability for millions of daily transactions
+* Resolved long-running card-organization BIN matching jobs by combining goroutine sharding with a greedy merge strategy, reducing job execution time from 10h to 30min
+* Refactored the downstream service call chain with errgroup and DAG topological sorting to parallelize independent calls while preserving dependencies, reducing core API response time from 1.8s to 400ms
+* Converted the reporter service into a resident process with a scheduling mechanism compatible with the existing scheduler, supporting multiple scheduling modes side-by-side and broadening file job flexibility
+* Implemented end-to-end encryption for files to meet cross-border payment compliance requirements and maintained an internal decryption tool to lower manual processing cost
+* Addressed slow end-of-day report jobs caused by full-table scans by introducing an intermediate aggregation layer with batched pre-aggregation, cutting report generation time by 70%
+* Maintained project-level CLAUDE.md, encoding business rules for funding-file generation (amount precision, field specs, fund flow) as AI constraints, significantly reducing manual review cost and compliance risk in AI-generated code
+* Built a reconciliation testing tool on top of the Eino framework that auto-generates edge-case scenarios and drives the full transaction lifecycle (initiation → clearing → reconciliation validation), covering one-sided entries, amount discrepancies, and cross-day delays, raising unit test coverage of core reconciliation modules to 99%
 
-### Mogujie — E-commerce Main Site
+### Hang Seng Onboarding Platform &emsp;&emsp; Role: Backend Engineer (Core Developer)
 
-Participated in main site development and infrastructure scaffolding maintenance.
+Merchant onboarding platform for Hang Seng partners, covering the end-to-end flow from document submission, compliance review, agreement generation, rate configuration, to downstream payment-channel account provisioning — the front-end stage of the payment transaction chain.
 
-* Developed subscription purchase feature by reusing existing forward/reverse order logic, adding sub-order attachment and zero-cost purchase flows to reduce repetitive business operations
-* Optimized rate limiting with a leaky bucket algorithm and AOP-based interface-level throttling
-* Implemented distributed locks for interface idempotency, reducing upstream business logic complexity
-* Improved application scaffolding code standards (exception handling, internal framework usage), reducing new application setup cost by 80%
-* Refactored data fetching interfaces using async orchestration for page preloading, improving user experience
-* Integrated third-party applications with pluggable architecture reusing main site forward/reverse logic
+* Designed and implemented a generic workflow engine abstracting node-level DAG transitions; submission, primary/secondary review, channel account creation, and activation steps are all configurable, allowing new nodes to be added without code changes
+* Built an SLA timeout alerting mechanism matching SLA configs across multi-level dimensions (FunctionMenu, TaskType, etc.), computing ExpectedDate and Priority in real time from task creation timestamps to monitor onboarding timeliness
+* Captured full-lifecycle audit trails via HistoryEntry, recording the operator, timestamp, and before/after values for every node entry, approval, rollback, and form change, meeting audit traceability and compliance requirements
+* Abstracted hardcoded validation rules into JSON-configurable rules, supporting differentiated strategies per channel/institution and allowing new validation rules to be added without code changes
 
-### Godis — Redis Protocol Implementation in Go
+### Mogujie — E-commerce Main Site &emsp;&emsp; Role: Backend Engineer (Intern)
 
-A lightweight Redis protocol library implemented in Go.
+Main-site transaction-path development and shared scaffolding maintenance, covering order, refund, and rate-limiting modules with hundred-thousand-level daily orders.
 
-* Designed and implemented core Redis data structures (strings, hashes, lists) supporting efficient storage and retrieval
-* Optimized data operations using Go's concurrency primitives for high-throughput scenarios
-* Implemented Redis protocol parsing and command execution with accurate response handling
-* Improved caching strategies and memory management for better response times and resource utilization
-* Completed persistence functionality including RDB and AOF file strategies
+* Delivered a subscription-purchase feature by reusing forward/reverse order logic, adding sub-order attachment and zero-cost purchase flows to reduce repetitive business wiring
+* Implemented interface-level rate limiting using a leaky-bucket algorithm combined with AOP to cushion traffic bursts during peak events
+* Applied distributed locks to enforce idempotency on low-level interfaces, reducing upstream complexity for duplicate-request and message-redelivery handling
+* Unified scaffolding code standards (exception handling, in-house framework integration, etc.), cutting new-application bootstrap cost by 80%
+* Rebuilt data-aggregation APIs with async orchestration to enable page pre-loading and improve first-screen experience
+* Integrated third-party merchant systems with pluggable extension points for forward/reverse flows, turning new-channel onboarding from full-rewrite into plug-and-play configuration
